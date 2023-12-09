@@ -207,7 +207,7 @@ public class Main {
             int index = Integer.parseInt(tokenizer.nextToken()) - 1;
             int direction = Integer.parseInt(tokenizer.nextToken());
             
-            if(stamina[index] < 0) continue;
+            if(stamina[index] <= 0) continue;
             // System.out.println("시작");
             gameStation(index, direction);
 
